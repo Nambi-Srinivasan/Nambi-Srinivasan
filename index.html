@@ -43,8 +43,7 @@ border-radius: 50%;
 		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
 		<p>I'm an Intern working at Cognizant Technology Solutions, Bangalore.  I'm a  mature and ambitious person who has developed a responsible
 		approach to any task that I undertake.  I'm fueled by my passion for learning and understanding the various
-		concepts and advancements in Machine Learning and AI and I'm very much interested to do project in AI and Robotics.  Other than photography, I'm a bibliophile and likes to read all kind of genres.
-		 Loves watching cricket and a serious movie-buff.</p>
+		concepts and advancements in Machine Learning and AI and I'm very much interested to do project in AI and Robotics.I Love watching cricket and a serious movie-buff.</p>
 		<ul>
 			<li><a class="fb" href="https://www.facebook.com/nambi2112"></a></li>
 			<li><a class="twit" href="https://twitter.com/nambi200"></a></li>
@@ -260,7 +259,7 @@ border-radius: 50%;
 								}
 								for (var i = 3; i <= 3; i++){
 									var child = document.getElementById('circles-' + i),
-										percentage = 60;
+										percentage = 50;
 										
 									Circles.create({
 										id:         child.id,
@@ -274,7 +273,21 @@ border-radius: 50%;
 								}
 								for (var i = 4; i <= 4; i++){
 									var child = document.getElementById('circles-' + i),
-										percentage = 55;
+										percentage = 70;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+							        for (var i = 5; i <= 5; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 60;
 										
 									Circles.create({
 										id:         child.id,
